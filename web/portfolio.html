@@ -36,18 +36,44 @@
 		</section>
 
 		<section class="container">
-			<blockquote class="quote_clientes">
-				<p>“No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte.”</p>
-				<cite>Barbara Moss</cite>
-			</blockquote>
+			<ul class="rslides">
+				<li>
+					<blockquote class="quote_clientes">
+						<p>“No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte.”</p>
+						<cite>Barbara Moss</cite>
+					</blockquote>
+				</li>
+				<li>
+					<blockquote class="quote_clientes">
+						<p>“Do mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte.”</p>
+						<cite>Bernardo</cite>
+					</blockquote>
+				</li>
+				<li>
+					<blockquote class="quote_clientes">
+						<p>“No mundo recente, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte.”</p>
+						<cite>Jhony Rato</cite>
+					</blockquote>
+				</li>
+			</ul>
+
 		</section>
 
 		<section class="portfolio">
 			<div class="container">
-				<ul class="portfolio_lista">
-					<li class="grid-8"><img src="img/portfolio/foto-1.png" alt="Foto Um"></li>
-					<li class="grid-8"><img src="img/portfolio/foto-2.png" alt="Foto Dois"></li>
-					<li class="grid-16"><img src="img/portfolio/foto-3.png" alt="Foto Tres"></li>
+				<ul class="portfolio_lista rslides_portfolio">
+					<li>
+						<div class="grid-8"><img src="img/portfolio/foto-1.png" alt="Foto Um"></div>
+						<div class="grid-8"><img src="img/portfolio/foto-2.png" alt="Foto Dois"></div>
+						<div class="grid-16"><img src="img/portfolio/foto-3.png" alt="Foto Tres"></div>
+					</li>
+
+					<li>
+						<div class="grid-8"><img src="img/portfolio/foto-2.png" alt="Foto Dois"></div>
+						<div class="grid-8"><img src="img/portfolio/foto-1.png" alt="Foto Um"></div>
+						<div class="grid-16"><img src="img/portfolio/foto-3.png" alt="Foto Tres"></div>
+
+					</li>
 				</ul>
 			</div>
 
@@ -98,7 +124,15 @@
 
 			</div>
 		</footer>
-
-
+		<!-- Java script -->
+		<script type="text/javascript" src="js/libs/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/plugins.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- Java script -->
+		<script>
+		  $(function() {
+		    $(".rslides").responsiveSlides();
+		  });
+		</script>
 	</body>
 </html>
